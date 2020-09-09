@@ -1,4 +1,4 @@
-#include<iostream>
+  #include<iostream>
 #include<vector>
 using namespace std;
 
@@ -25,6 +25,6 @@ int main()
         list.push_back(item);
     }
   }while( input != 'q' && input != 'Q' );
-  
+    
   return 0;
 }

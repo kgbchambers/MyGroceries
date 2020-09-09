@@ -30,9 +30,5 @@ int main()
   {
     cout << "There are no items on the list." << endl;
   }
-  else
-  {
-    cout << list.size() << endl;
-  }
   return 0;
 }

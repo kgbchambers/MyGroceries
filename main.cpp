@@ -26,10 +26,12 @@ int main()
     }
   }while( input != 'q' && input != 'Q' );
   
-  if(list.size() == 0){
+  if(list.size() == 0)
+  {
     cout << "There are no items on the list." << endl;
   }
-  else{
+  else
+  {
     cout << list.size() << endl;
   }
   return 0;
